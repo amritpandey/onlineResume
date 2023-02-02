@@ -1,0 +1,48 @@
+body {
+    background-color:aliceblue;
+}
+
+img {
+    width: 7.5rem;
+    height: auto;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+.top-info {
+    display: flex;
+    column-gap: 80px;
+}
+
+.name-profile p {
+background-color: rgb(176, 159, 159);
+padding: 0.75rem;
+border-radius: 25px;
+}
+
+.bottom-info {
+    display: flex;
+}
+
+.skills,.references {
+    background-color: rgb(235, 229, 229);
+    padding: 0.5rem;
+}
+
+.skills {
+    margin-bottom: 1rem;
+}
+
+.bottom-left {
+  width:60%;
+}
+
+.bottom-right {
+    width:40%;
+}
