@@ -1,6 +1,11 @@
 body {
     background-color:aliceblue;
 }
+main {
+    width: 95%;
+    max-width: 980px;
+    margin: 0 auto;
+}
 
 img {
     width: 7.5rem;
@@ -24,6 +29,14 @@ h1 {
 background-color: rgb(176, 159, 159);
 padding: 0.75rem;
 border-radius: 25px;
+}
+
+.name-profile {
+    width:70%;
+}
+
+.photo-info{
+    width:30%;
 }
 
 .bottom-info {
